@@ -1,0 +1,629 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+/* base */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color:#000;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+
+/* header */
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+} */
+
+.header-logo {
+    max-width: 140px;
+    margin-top: 32px;
+}
+
+.header-logo-img {
+    max-width: 100%;
+}
+
+.header-list {
+    display: flex;
+    margin-top: 46px;
+    
+}
+
+.header-item {
+    list-style: none;
+    margin-right: 56px;
+    font-size: 1.8rem;
+}
+
+.header-item a:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+
+.fv {
+    height: 80vh;
+    background-image: url(../蒼乃建設/img/空とビル.jpg);
+    background-position: center;
+    position: relative;
+    
+}
+
+.fv-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+    
+}
+
+
+
+.fv-title {
+    font-size: 5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* お知らせ */
+
+.notice {
+    padding: 40px 10% 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 3.6rem;
+    padding-bottom: 40px;
+}
+
+.notice-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.notice-item {
+    list-style: none;
+    font-size: 1.8rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000;
+    width: 700px;
+}
+
+.notice-span {
+    border: 0.6px solid #000; 
+    font-size: 1.2rem;
+    padding: 6px 8px;
+    margin: 0 20px 0 20px;
+}
+
+.br-sp {
+    display: none;
+}
+
+
+
+/* 施工事例 */
+
+.achievement {
+    padding: 40px 5% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.achievement-wrapper {
+    display: flex;
+    width: 890px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.M-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.construction-title {
+    font-size: 2.4rem;
+}
+
+.place {
+    font-size: 1.4rem;
+    padding: 16px;
+}
+
+
+.M-image {
+    max-width: 400px;
+}
+
+.M-img {
+    max-width: 100%;
+}
+
+
+.sky-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.sky-image {
+    max-width: 400px;
+}
+
+.sky-img {
+    max-width: 100%;
+}
+
+
+.detail {
+    max-width: 300px;
+}
+
+.detail-img {
+    max-width: 100%;
+}
+
+.achievement-list-p {
+    font-size: 2rem;
+    padding: 14px 40px;
+    border: 1px solid #000;
+    margin-top: 80px;
+}
+
+
+/* about */
+
+.about {
+    margin-top: 180px;
+}
+
+
+.about-image {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.about-img {
+    max-width: 33%;
+    cursor: pointer;
+    transition-duration: .3s; 
+}
+
+.about-img:hover {
+    opacity: .6;
+    transition-duration: .3s;
+}
+
+
+
+/* footer */
+
+.footer {
+    color: #fff;
+    background-color: #000;
+    height: 160px;
+    position: relative;
+    padding: 0 2% 0 2%; 
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+.footer-logo {
+    max-width: 90px;
+    margin-top: 32px;
+}
+
+.footer-logo-img {
+    max-width: 100%;
+}
+
+.footer-list {
+    display: flex;
+    margin-top: 46px;
+    
+}
+
+.footer-item {
+    list-style: none;
+    margin-right: 56px;
+    font-size: 1.8rem;
+}
+
+.footer-item:nth-of-type(4) {
+    margin-right: 30px;
+}
+
+.footer-item a {
+    color:#fff;
+}
+
+small {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ハンバーガーメニュー */
+
+.hamburger-btn{
+    position: relative;  /* buttonタグを起点にしてspanタグの位置を決める */
+    width: 20px;
+    height: 16px;
+    transition: all .4s; /* アニメーション速度 */
+    border: none;  /* buttonタグの装飾を消去 */
+    outline: none;  /* buttonタグの装飾を消去 */
+    background: transparent;  /* buttonタグの装飾を消去 */
+    display: none;
+    margin-top: 32px;
+    margin-right: 6px;
+  }
+  
+  .hamburger-btn span{
+    /* すべての線に共通のスタイル */
+    display: inline-block;
+    transition: all .4s; /* アニメーション速度 */
+    position: absolute;  /* buttonタグから見た位置 */
+    left: 0;  /* buttonタグの左端に寄せる */
+    width: 100%;  /* 横幅をbuttonタグいっぱいに広げる(40px) */
+    height: 1px;  /* 線の太さ */
+    background-color: #333333;
+    border-radius: 4px; 
+  }
+  
+  .hamburger-btn span:nth-of-type(1){
+    /* 一番上の線の位置 */
+    top: 0;
+  }
+  .hamburger-btn span:nth-of-type(2){
+    /* 真ん中の線の位置 */
+    top: 8px;
+  }
+  .hamburger-btn span:nth-of-type(3){
+    /* 一番下の線の位置 */
+    bottom: 0;
+  }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+/* base */
+
+.section-title {
+    padding-bottom: 0;
+}
+
+
+/* header */
+
+.header-logo {
+    max-width: 90px;
+    margin-top: 20px;
+}
+
+.fv {
+    height: 50vh;
+}
+
+.fv-inner {
+    padding: 0 2% 0 2%; 
+}
+
+.fv-title {
+    font-size: 2.6rem;
+}
+
+.header-list {
+    display: none;
+}
+
+/* ハンバーガーメニュー */
+
+.hamburger-btn {
+    display: block;
+
+}
+
+.hamburger-btn.active span:nth-of-type(1){
+    -webkit-transform: translateY(14px) rotate(-45deg);
+    transform: translateY(14px) rotate(-45deg);
+  }
+  .hamburger-btn.active span:nth-of-type(2){
+    opacity: 0;
+  }
+  .hamburger-btn.active span:nth-of-type(3){
+    -webkit-transform: translateY(-14px) rotate(45deg);
+    transform: translateY(-14px) rotate(45deg);
+  }
+
+/* お知らせ */
+
+.notice {
+    padding-bottom: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-title {
+    font-size: 2.4rem;
+}
+
+.br-sp {
+    display: block;
+}
+
+.notice-item {
+    line-height: 2;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.date {
+    font-size: 1.3rem;
+}
+
+.notice-span {
+    font-size: 1rem;
+}
+
+/* .notice-item:nth-of-type(3) {
+    padding-bottom: 20px;
+} */
+
+
+
+/* 施工事例 */
+
+.achievement {
+    padding: 20px 10% 10px;
+
+}
+
+
+.achievement-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.M-construction {
+    margin-bottom: 50px;
+}
+
+.M-image {
+    max-width: 700px;
+
+}
+
+.sky-image {
+    max-width: 700px;
+}
+
+.achievement-list-p {
+    margin-top: 50px;
+}
+
+
+
+/* about */
+
+.about {
+    margin-top: 90px;
+}
+
+.about-image {
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.about-img {
+    max-width: 100%;
+}
+
+
+
+/* footer */
+
+
+.footer {
+    height: 50vh;
+    position: relative;
+    padding: 0 2% 0 2%; 
+}
+
+.footer-inner {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-section-wrapper {
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+.footer-list {
+    margin-top: 46px;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.footer-item {
+    margin-right: 0;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.footer-item:nth-of-type(4) {
+    margin-right: 0;
+    padding-bottom: 20px;
+}
+
+.footer-logo {
+    max-width: 94px;
+}
+
+small {
+    top: 94%;
+}
+
+}
